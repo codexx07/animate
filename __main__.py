@@ -45,10 +45,7 @@ def main():
         description="🎬 Create stunning ASCII animations with AI",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Examples:
-  animate "a spinning wheel"
-  animate "a dancing banana" --theme neon --speed fast
-  animate "a rotating cube" --frames 6 --model llama3
+Examples:  "a spinning wheel"  "a dancing banana" --theme neon --speed fast  "a rotating cube" --frames 6 --model llama3
         """
     )
     

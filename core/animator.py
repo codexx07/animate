@@ -15,7 +15,7 @@ from .ollama_client import OllamaClient
 from .frame_parser import FrameParser
 from ..ui.console import get_console
 from ..ui.themes import get_theme_colors
-from ..utils.fallbacks import get_fallback_animation
+from ..utils.fallback import get_fallback_animation
 
 class ASCIIAnimator:
     """Main ASCII Animation class"""
